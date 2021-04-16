@@ -1,0 +1,46 @@
+<form>
+	<h1>DAFTAR NOW!</h1>
+<table cellspacing="0" cellpadding="5">
+		<tr>
+	<td><label for="username"> username <td>:</td></label></td>
+	<td><input type="text" id="username"></td> <!-- text; tampilan muncul -->
+		</tr>
+		<tr>
+	<td><label for="password"> password <td>:</td></label></td>
+	<td><input type="password" id="password"></td> <!-- password; tampilan tidak muncul -->
+		</tr>	
+		<tr>
+		<td>Jenis Kelamin</td><td>:</td>
+	<td><input type="radio" id="pria" name="jeniskelamin"><label for="pria"> pria </label>
+	<!-- radio button; memilih buletan kecil -->
+	<!-- name; agar tidak dapat memilih 2 x -->
+	<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita"> wanita </label></td>
+		</tr>
+		<tr>
+		<td>Hobby</td><td>:</td>
+	<td><input type="checkbox" id="menyanyi" ><label for="menyanyi">menyanyi</label>
+	<input type="checkbox" id="panah" ><label for="panah">panah</label></td>
+	<!-- checkbox; dapat memilih lebih dari 1 -->
+	</td>
+		</tr>	
+		
+		<tr>	
+		<td><label for="textbox">Pesan <td>:</td></label></td>
+	 <td><textarea></textarea></td> <!-- kotak text yg lebih besar -->
+		</tr>	
+	 	
+		 <tr>
+	 	<td><label for="Asal kota">Asal Daerah <td>:</td></label></td>
+	 <td>
+	 <select>
+	 <option>Pulau Sumatera</option>
+	 <option>Pulau Jawa</option>
+	 <option>Pulau Kalimanta</option>
+	 </select>
+	</td>
+	 <!-- <input type="submit" value="kirims">typenya submit,riset, button -->
+		</tr>
+	 	<tr>
+	 <td colspan="2" rowspan="2"><button type="submit">kirim</button></td> <!-- disarankan -->
+	 	</tr>
+</form>
